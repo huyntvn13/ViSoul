@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>Home</Name>
+    <Alias>Home</Alias>
+    <Icon>.sprTreeSettingDomain</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description></Description>
+    <AllowAtRoot>False</AllowAtRoot>
+    <Master>Page</Master>
+    <AllowedTemplates>
+      <Template>Home</Template>
+    </AllowedTemplates>
+    <DefaultTemplate>Home</DefaultTemplate>
+  </Info>
+  <Structure>
+    <DocumentType>Common</DocumentType>
+  </Structure>
+  <GenericProperties />
+  <Tabs />
+</DocumentType>

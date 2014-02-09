@@ -1,0 +1,46 @@
+﻿@using UmbracoBP
+@using umbraco.cms.businesslogic.member
+@using System.Web.Configuration
+
+@{
+    string siteShortName = WebConfigurationManager.AppSettings["siteShortName"];    
+}
+<div id="footer">
+    <div class="footer-spacer alignleft"></div>
+    <div id="footer-social-icons">
+        <ul>
+            <li><a href="https://www.facebook.com/pages/Pexeto/154921334549933" target="_blank" title="@siteShortName on Facebook">
+                <div>
+                    <img src="/content/images/icons/facebook.png" alt="" /></div>
+            </a></li>
+            @*<li><a href="http://twitter.com/#!/pexeto" target="_blank" title="Follow us on Twitter">
+                <div>
+                    <img src="http://pexetothemes.com/demos/photolux_wp/wp-content/themes/photolux/images/icons/twitter.png" alt="" /></div>
+            </a></li>
+            <li><a href="http://vimeo.com/user5191332" target="_blank" title="Pexeto on Vimeo">
+                <div>
+                    <img src="http://pexetothemes.com/demos/photolux_wp/wp-content/themes/photolux/images/icons/vimeo.png" alt="" /></div>
+            </a></li>
+            <li><a href="http://dribbble.com/Pexeto" target="_blank" title="Pexeto on Dribbble">
+                <div>
+                    <img src="http://pexetothemes.com/demos/photolux_wp/wp-content/themes/photolux/images/icons/dribbble.png" alt="" /></div>
+            </a></li>
+            <li><a href="http://themeforest.net/feeds/users/pexeto.atom" target="_blank" title="Pexeto items RSS feed">
+                <div>
+                    <img src="http://pexetothemes.com/demos/photolux_wp/wp-content/themes/photolux/images/icons/rss.png" alt="" /></div>
+            </a></li>*@
+        </ul>
+    </div>
+    <div id="footer-menu">
+        <div class="menu-footer-menu-container">
+            <ul id="menu-footer-menu" class="menu">
+                <li id="menu-item-1545" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-352 current_page_item menu-item-1545"><a href="/">Home - Gallery</a></li>
+                <li id="menu-item-1547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1547"><a href="/contact/">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-spacer alignright"></div>
+    <span class="alignright copyrights">Copyright 2014 © @siteShortName by huyntvn13</span>
+
+</div>
+<!-- end #footer-->

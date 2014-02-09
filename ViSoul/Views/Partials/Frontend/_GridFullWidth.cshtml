@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+<div id="grid-full-width">
+    <img src="/content/images/scroll-bg.png" class="preload-img" />
+    <img src="/content/images/scroll-handle-bg.png" class="preload-img" />
+    <img src="/content/images/preview_arrows.png" class="preload-img" />
+    <div id="grid-gallery-wrapper" class="loading with-filter">
+        <div id="gallery-container">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('#grid-gallery-wrapper').pexetoGridGallery({
+                "itemsPerPage": 5,
+                "showCategories": true,
+                "imageWidth": 290,
+                "showInfo": true,
+                "ajaxUrl": "/api/loadposts",
+                "category": "viewAll",
+                "categories": [{ "id": "mostPeeked", "name": "Most peeked" }, { "id": "mostViewed", "name": "Most viewed" }],
+                "allText": "All",
+                "filterText": "Filter",
+                "loadMoreText": "Load More",
+                "backText": "Back to gallery",
+                "orderBy": "custom",
+                "desaturate": false,
+                "showBackBtnEnd": true,
+                "partialLoading": true,
+                "imgNumBeforeLoad": 3,
+                "infoText": "Info",
+                "pageUrl": "http://pexetothemes.com/demos/photolux_wp/"
+            });
+        });
+    </script>
+</div>
+<!-- end main content holder (#content/#full-width) -->
+<div class="clear"></div>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>Common</Name>
+    <Alias>Common</Alias>
+    <Icon>folder.gif</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description></Description>
+    <AllowAtRoot>False</AllowAtRoot>
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure>
+    <DocumentType>video</DocumentType>
+    <DocumentType>wisdom</DocumentType>
+    <DocumentType>article</DocumentType>
+    <DocumentType>avatar</DocumentType>
+  </Structure>
+  <GenericProperties />
+  <Tabs />
+</DocumentType>

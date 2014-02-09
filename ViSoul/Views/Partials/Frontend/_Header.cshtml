@@ -1,0 +1,104 @@
+﻿@using UmbracoBP
+@using umbraco.cms.businesslogic.member
+@using System.Web.Configuration
+
+<!--HEADER -->
+<div id="header">
+    <div id="logo-container">
+        <a href="/">
+            <img src="/content/images/logo.png" />
+        </a>
+    </div>
+    <div class="mobile-nav">
+        <span class="mob-nav-btn">Menu</span>
+    </div>
+    <div class="clear"></div>
+    <div id="navigation-container">
+        <div id="menu-container">
+            <div id="menu">
+                <div class="menu-main-menu-container">
+                    <ul id="menu-main-menu" class="menu">
+                        <li id="menu-item-2182" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-352 current_page_item menu-item-2182"><a href="/">Home</a></li>
+                        <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515"><a href="/contact/">Contact</a></li>
+                        @*<li id="menu-item-2182" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-352 current_page_item menu-item-2182"><a href="http://pexetothemes.com/demos/photolux_wp/">Home</a></li>
+                        <li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2175"><a href="#">Galleries</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-2282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2282"><a href="#">Full-width slideshow</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-2210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2210"><a href="http://pexetothemes.com/demos/photolux_wp/full-width-slideshow/">Hide menu layout</a></li>
+                                        <li id="menu-item-2284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2284"><a href="http://pexetothemes.com/demos/photolux_wp/full-width-page-with-menu/">Standard layout</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-2283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2283"><a href="#">Full-height slideshow</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2286"><a href="http://pexetothemes.com/demos/photolux_wp/full-height-page/">Hide menu layout</a></li>
+                                        <li id="menu-item-2285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2285"><a href="http://pexetothemes.com/demos/photolux_wp/full-height-page-with-menu/">Standard layout</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-2176" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-352 current_page_item menu-item-2176"><a href="http://pexetothemes.com/demos/photolux_wp/">Slider Grid Gallery</a></li>
+                                <li id="menu-item-1986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1986"><a href="http://pexetothemes.com/demos/photolux_wp/lghtbox-grid-gallery/">Lightbox Grid Gallery</a></li>
+                                <li id="menu-item-2101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2101"><a href="http://pexetothemes.com/demos/photolux_wp/black-and-white-gallery/">Black &#038; White Effect Gallery</a></li>
+                                <li id="menu-item-2114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2114"><a href="http://pexetothemes.com/demos/photolux_wp/smaller-images-gallery/">Smaller images gallery</a></li>
+                                <li id="menu-item-2082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2082"><a href="http://pexetothemes.com/demos/photolux_wp/mixed-grid-gallery/">Mixed Grid Gallery</a></li>
+                                <li id="menu-item-1517" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1517"><a href="#">Showcase Template</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-1518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a href="http://pexetothemes.com/demos/photolux_wp/portfolio-main/">Default Showcase</a></li>
+                                        <li id="menu-item-1519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1519"><a href="http://pexetothemes.com/demos/photolux_wp/showcase-without-categories/">Showcase without categories</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-1520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1520"><a href="#">Quick Gallery</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-1521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a href="http://pexetothemes.com/demos/photolux_wp/quick-gallery-full-width/">Full Width Quick Gallery</a></li>
+                                        <li id="menu-item-1522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1522"><a href="http://pexetothemes.com/demos/photolux_wp/quick-gallery-with-sidebar/">Quick Gallery with Sidebar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1525"><a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-2281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2281"><a href="#">Featured Posts Template</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-1526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1526"><a href="http://pexetothemes.com/demos/photolux_wp/featured-posts/">With Sidebar</a></li>
+                                        <li id="menu-item-2280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2280"><a href="http://pexetothemes.com/demos/photolux_wp/featured-posts-template-full-width/">Full Width</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-1529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1529"><a href="http://pexetothemes.com/demos/photolux_wp/page-with-slider/">Page with slider</a></li>
+                                <li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://pexetothemes.com/demos/photolux_wp/static-image/">Page with static header</a></li>
+                                <li id="menu-item-1538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1538"><a href="#">Layouts</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-1540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1540"><a href="http://pexetothemes.com/demos/photolux_wp/left-sidebar/">Left Sidebar</a></li>
+                                        <li id="menu-item-1541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1541"><a href="http://pexetothemes.com/demos/photolux_wp/right-sidebar/">Right Sidebar</a></li>
+                                        <li id="menu-item-1539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539"><a href="http://pexetothemes.com/demos/photolux_wp/full-width/">Full Width</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1555"><a href="#">Features</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a href="http://pexetothemes.com/demos/photolux_wp/typography/">Typography and Elements</a></li>
+                                <li id="menu-item-1557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1557"><a href="http://pexetothemes.com/demos/photolux_wp/image-styles/">Images and Videos</a></li>
+                                <li id="menu-item-1561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1561"><a href="http://pexetothemes.com/demos/photolux_wp/testimonials/">Testimonials</a></li>
+                                <li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556"><a href="http://pexetothemes.com/demos/photolux_wp/columns/">Columns</a></li>
+                                <li id="menu-item-1558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1558"><a href="http://pexetothemes.com/demos/photolux_wp/jquery-tabs/">jQuery Tabs</a></li>
+                                <li id="menu-item-1550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1550"><a href="http://pexetothemes.com/demos/photolux_wp/font-management/">Font Management</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1514"><a href="http://pexetothemes.com/demos/photolux_wp/blog/">Blog</a></li>
+                        <li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1515"><a href="http://pexetothemes.com/demos/photolux_wp/contact/">Contact</a></li>
+                        <li id="menu-item-2051" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2051"><a href="#">Skins</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-2052" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2052"><a href="http://pexetothemes.com/demos/photolux_wp/?skin=dark">Dark</a></li>
+                                <li id="menu-item-2053" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2053"><a href="http://pexetothemes.com/demos/photolux_wp/?skin=light">Light</a></li>
+                                <li id="menu-item-2179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2179"><a href="http://pexetothemes.com/demos/photolux_wp/?skin=darkt">Dark Transparent</a></li>
+                            </ul>
+                        </li>*@
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="navigation-line"></div>
+</div>
+<!-- end #header -->

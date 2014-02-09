@@ -66,6 +66,9 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="ImageResizer">
+      <HintPath>..\packages\ImageResizer.3.4.2\lib\ImageResizer.dll</HintPath>
+    </Reference>
     <Reference Include="interfaces">
       <HintPath>..\packages\UmbracoCms.Core.6.1.6\lib\interfaces.dll</HintPath>
     </Reference>
@@ -230,13 +233,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Bootstrapper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\SurfaceControllers\ApiSurfaceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Helpers\Helpers.cs" />
+    <Compile Include="Models\DocTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2142,7 +2150,9 @@
     <Content Include="Umbraco_Client\Ui\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
     <Content Include="Umbraco_Client\Ui\ui-lightness\images\ui-icons_ffffff_256x240.png" />
     <Content Include="Umbraco_Client\Ui\ui-lightness\jquery-ui.custom.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -2182,16 +2192,19 @@
     <Content Include="Umbraco_Client\CodeMirror\Js\Mode\Razor\LICENSE" />
     <Content Include="Umbraco_Client\CodeMirror\Js\Mode\Sieve\LICENSE" />
     <Content Include="Xslt\Web.config" />
+    <Content Include="Views\Frontend.cshtml" />
+    <Content Include="Views\Partials\Frontend\_Header.cshtml" />
+    <Content Include="Views\Partials\Frontend\_Footer.cshtml" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Item.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\Partials\Frontend\_GridFullWidth.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="App_Plugins\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Css\" />
     <Folder Include="MacroScripts\" />
     <Folder Include="Masterpages\" />
-    <Folder Include="Media\" />
-    <Folder Include="Models\" />
     <Folder Include="UserControls\" />
   </ItemGroup>
   <ItemGroup>
@@ -2213,7 +2226,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>17679</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:6900/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

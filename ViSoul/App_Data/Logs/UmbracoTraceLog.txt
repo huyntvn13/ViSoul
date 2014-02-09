@@ -1,0 +1,96 @@
+2014-02-10 00:05:22,772 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Black and White' with Id '1134' has been published.
+2014-02-10 00:07:14,355 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Black and White' with Id '1134' has been published.
+2014-02-10 00:10:58,960 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content 'Black and White' with Id '1134' has been published.
+2014-02-10 00:12:15,569 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:12:20,768 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Glamorous' with Id '1133' has been published.
+2014-02-10 00:13:18,252 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:13:21,590 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'On a city street' with Id '1131' has been published.
+2014-02-10 00:13:25,405 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Street life' with Id '1123' has been published.
+2014-02-10 00:13:29,151 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Glamorous' with Id '1133' has been published.
+2014-02-10 00:13:32,926 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:13:36,410 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Black and White' with Id '1134' has been published.
+2014-02-10 00:14:40,405 [36] INFO  umbraco.BusinessLogic.Log - [Thread 37] Log scrubbed.  Removed all items older than 2013-12-12 00:14:40
+2014-02-10 00:14:40,419 [36] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 37] Application shutdown. Reason: ConfigurationChange
+2014-02-10 00:14:46,274 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Determining hash of code files on disk
+2014-02-10 00:14:46,283 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Hash determined (took 5ms)
+2014-02-10 00:14:46,290 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-10 00:14:49,039 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 21 (took 2747ms)
+2014-02-10 00:14:49,083 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-10 00:14:49,088 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2014-02-10 00:14:49,090 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-10 00:14:49,095 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 5ms)
+2014-02-10 00:14:49,095 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-10 00:14:49,100 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-02-10 00:14:49,101 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-10 00:14:49,107 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-02-10 00:14:49,107 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-10 00:14:49,113 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 2 (took 5ms)
+2014-02-10 00:14:49,817 [42] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 28] Initializing Examine and binding to business logic events
+2014-02-10 00:14:50,686 [42] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 28] Adding examine event handlers for index providers: 3
+2014-02-10 00:14:50,761 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-10 00:14:50,773 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2014-02-10 00:14:50,826 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.interfaces.ITree
+2014-02-10 00:14:50,860 [42] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 33ms)
+2014-02-10 00:15:21,510 [42] INFO  umbraco.content - [Thread 34] Loading content from disk cache...
+2014-02-10 00:16:19,351 [42] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-10 00:16:19,360 [42] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 8ms)
+2014-02-10 00:16:51,177 [42] INFO  umbraco.BusinessLogic.Log - [Thread 21] Log scrubbed.  Removed all items older than 2013-12-12 00:16:51
+2014-02-10 00:16:51,178 [42] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 21] Application shutdown. Reason: HostingEnvironment
+2014-02-10 00:18:13,871 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-10 00:18:13,882 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2014-02-10 00:18:13,890 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-10 00:18:14,056 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 21 (took 164ms)
+2014-02-10 00:18:14,074 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-10 00:18:14,080 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2014-02-10 00:18:14,081 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-10 00:18:14,089 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 7ms)
+2014-02-10 00:18:14,089 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-10 00:18:14,094 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2014-02-10 00:18:14,100 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-10 00:18:14,105 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-02-10 00:18:14,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-10 00:18:14,113 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 2 (took 6ms)
+2014-02-10 00:18:14,310 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-10 00:18:14,670 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-10 00:18:14,678 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-10 00:18:14,692 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2014-02-10 00:18:14,759 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-10 00:18:14,793 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 33ms)
+2014-02-10 00:18:15,396 [5] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2014-02-10 00:18:44,270 [5] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-10 00:18:44,277 [5] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-02-10 00:19:36,109 [5] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-10 00:19:36,117 [5] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 7ms)
+2014-02-10 00:19:36,292 [5] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2014-02-10 00:19:36,324 [5] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 31ms)
+2014-02-10 00:19:51,333 [5] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-10 00:19:51,358 [5] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IDataType, found 40 (took 24ms)
+2014-02-10 00:19:51,560 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-02-10 00:19:51,570 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-02-10 00:19:59,680 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-02-10 00:19:59,687 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-02-10 00:20:01,066 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:20:01,268 [5] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-10 00:20:01,284 [5] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 16ms)
+2014-02-10 00:20:12,629 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:20:34,668 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:22:09,231 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:22:11,345 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-02-10 00:22:11,352 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-02-10 00:25:30,975 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Creative model' with Id '1130' has been published.
+2014-02-10 00:25:54,748 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'On a city street' with Id '1131' has been published.
+2014-02-10 00:26:05,765 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'On a city street' with Id '1131' has been published.
+2014-02-10 00:28:30,037 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Glamorous' with Id '1133' has been published.
+2014-02-10 00:34:13,477 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Street life' with Id '1123' has been published.

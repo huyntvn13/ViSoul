@@ -1,0 +1,16 @@
+h1,h2,h3,h4,h5,h6,.accordion-description a,#content-container .wp-pagenavi,#portfolio-categories ul li.selected,.table-title td,.table-description strong,table th,.tabs a{font-family:"PT Sans Narrow","PT Sans", "Arial Narrow", Verdana, Geneva, sans-serif;}body, .content-box .post-info{font-family:"PT Sans Narrow","PT Sans", "Arial Narrow", Verdana, Geneva, sans-serif;}table#wp-calendar td:hover, table#wp-calendar td#today, table#wp-calendar td:hover a, table#wp-calendar td#today a{
+ -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+
+}
+
+
+.page-id-2222 img.bg-image{
+min-width:1500px;
+}
+body.iphone #content img{
+	width:auto;
+        height:auto;
+       max-width:100%;
+}

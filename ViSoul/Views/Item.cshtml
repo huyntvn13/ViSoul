@@ -1,0 +1,11 @@
+﻿@using umbraco.cms.businesslogic.member
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Frontend.cshtml";
+    int itemid = Model.Content.Id;
+}
+
+<div id="full-content-container" data-itemid="@itemid" class="layout-grid-full">
+    @Html.Partial("Frontend/_GridFullWidth")
+</div>
+<!-- end #content-container -->

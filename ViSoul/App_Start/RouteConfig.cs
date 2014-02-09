@@ -11,12 +11,20 @@ namespace UmbracoBP
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //routes.MapRoute(
+            //    name: "Default",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            //);
+
+            // Api
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                "ApiSurface", // Route name
+                "Api/{action}", // URL with parameters
+                new { action = "LoadPosts", controller = "ApiSurface" }, // parameter defaults 
+                new[] { "UmbracoBP.Controllers.SurfaceControllers" } // controller namespaces
             );
         }
     }

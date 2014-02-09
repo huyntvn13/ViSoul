@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>Article</Name>
+    <Alias>article</Alias>
+    <Icon>doc4.gif</Icon>
+    <Thumbnail>docWithImage.png</Thumbnail>
+    <Description></Description>
+    <AllowAtRoot>False</AllowAtRoot>
+    <Master>Common</Master>
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure>
+    <DocumentType>like</DocumentType>
+    <DocumentType>comment</DocumentType>
+  </Structure>
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Link</Name>
+      <Alias>link</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Content</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Title</Name>
+      <Alias>title</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Content</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Created</Name>
+      <Alias>created</Alias>
+      <Type>23e93522-3200-44e2-9f29-e61a6fcbb79a</Type>
+      <Definition>5046194e-4237-453c-a547-15db3a07c4e1</Definition>
+      <Tab>Content</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>10</Id>
+      <Caption>Content</Caption>
+    </Tab>
+  </Tabs>
+</DocumentType>
