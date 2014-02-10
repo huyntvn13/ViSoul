@@ -17,7 +17,7 @@
     <add type="umbraco.presentation.EnsureSystemPathsApplicationStartupHandler, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.umbraco.Search.ExamineEvents, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
-    <add type="UmbracoBP.App_Code.Bootstrapper, App_Code.g50-m0wg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="UmbracoBP.App_Code.Bootstrapper, App_Code.yt-r8o37, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="idseefeld.de.imagecropper.imagecropper.ImageEventsForCropper, idseefeld.de.imagecropper.events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="Runway.Blog.EventHandlers.AutoChannelCreator, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="Runway.Blog.EventHandlers.Autoping, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
